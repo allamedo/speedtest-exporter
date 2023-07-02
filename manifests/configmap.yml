@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: speedtest-exporter-config
+data:
+  SCHEDULE: "30 5 * * *"
+  

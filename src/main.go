@@ -35,7 +35,6 @@ func speedTest() {
 }
 
 var (
-	// TODO: expose rest of the metrics (Download, Upload)
 	speedTestResultLatency = prometheus.NewGauge(prometheus.GaugeOpts{
 		Name: "speedtest_latency",
 		Help: "Latency of the speedtest in ms",
